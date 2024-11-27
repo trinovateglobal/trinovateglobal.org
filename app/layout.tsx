@@ -23,7 +23,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         suppressHydrationWarning
-        className={cn(GeistSans.variable, GeistMono.variable, 'antialiased')}
+        className={cn(
+          GeistSans.variable,
+          GeistMono.variable,
+          'scroll-smooth antialiased',
+        )}
       >
         <Providers>{children}</Providers>
       </body>
