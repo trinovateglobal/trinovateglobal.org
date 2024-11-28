@@ -59,8 +59,8 @@ const TrustClients = () => {
   return (
     <section className="py-32">
       <div className="container flex flex-col items-center text-center">
-        <h1 className="my-6 text-pretty text-2xl font-bold lg:text-4xl">
-          Trusted by these companies
+        <h1 className="my-6 text-pretty text-2xl font-bold lg:text-4xl capitalize">
+          Main Tech stacks we use
         </h1>
       </div>
       <div className="pt-10 md:pt-16 lg:pt-20">
@@ -77,6 +77,7 @@ const TrustClients = () => {
                 >
                   <div className="mx-10 flex shrink-0 items-center justify-center">
                     <div>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={logo.image}
                         alt={logo.description}

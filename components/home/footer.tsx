@@ -11,8 +11,8 @@ const Footer = () => {
         <div className="container">
           <div className="mb-14">
             <span className="text-sm font-semibold">Reach Us</span>
-            <h1 className="mb-3 mt-1 text-balance text-3xl font-semibold md:text-4xl">
-              Speak with Our Friendly Team
+            <h1 className="mb-3 mt-1 text-balance text-3xl font-bold md:text-4xl">
+              Speak with Us
             </h1>
             <p className="text-lg text-muted-foreground">
               We&apos;d love to assist you. Fill out the form or drop us an

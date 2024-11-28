@@ -25,8 +25,8 @@ export default function RootLayout({
         suppressHydrationWarning
         className={cn(
           GeistSans.variable,
-          GeistMono.variable,
-          'scroll-smooth antialiased',
+          GeistMono.className,
+          'scroll-smooth antialiased tracking-tight',
         )}
       >
         <Providers>{children}</Providers>
